@@ -10,7 +10,7 @@ The "Database" folder contains the EFContext class, which shows an example of us
 The App.xaml.cs file shows examples of creating objects. 
 The MainWindow.xaml.cs file provides an example of using the function to create a configuration file.
 
-!!!IMPORTANT: when using a dynamic connection string, it becomes impossible to use migrations, since they are based on a static connection string. Therefore, it is recommended to work with migrations and database development before implementing a dynamic connection string.!!!
+!!!IMPORTANT: when using a dynamic connection string, it becomes impossible to use migrations, since they are based on a static connection string. Therefore, it is recommended that you design your database schema and create migrations before deploying a dynamic connection string. !!!
 
 [RU]
 В этом проекте представлена реализация динамической строки подключения к базе данных посредством Entity Framework.
@@ -21,4 +21,4 @@ The MainWindow.xaml.cs file provides an example of using the function to create 
 В файле App.xaml.cs показаны примеры создания объектов.
 В файле MainWindow.xaml.cs представлен пример использования функции создания файла конфигурации.
 
-!!!ВАЖНО: при использовании динамической строки подключения становится невозможным использование миграций, так как они основываются на статичной строке подключения. Поэтому рекомендуется работы с миграциями и разработкой базы данных проводить до внедрения динамической строки подключения.!!!
+!!!ВАЖНО: при использовании динамической строки подключения становится невозможным использование миграций, так как они основываются на статичной строке подключения. Поэтому рекомендуется разрабатывать схему базы данных и создавать миграции до внедрения динамической строки подключения.!!!
